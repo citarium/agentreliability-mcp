@@ -1,0 +1,22 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "dev.agentreliability/agent-reliability",
+  "title": "Agent Reliability",
+  "description": "Testing, benchmarking and auditing autonomous AI agents — methods, harnesses, evidence",
+  "version": "0.6.5",
+  "license": "CC-BY-4.0",
+  "websiteUrl": "https://agentreliability.dev",
+  "repository": {
+    "url": "https://github.com/citarium/agentreliability-mcp",
+    "source": "github"
+  },
+  "locales": [
+    "en"
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://agentreliability.dev/mcp?via=registry"
+    }
+  ]
+}

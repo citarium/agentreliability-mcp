@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "agent-reliability": {
+      "type": "streamable-http",
+      "url": "https://agentreliability.dev/mcp"
+    }
+  }
+}
