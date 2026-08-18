@@ -151,6 +151,12 @@ with a canonical URL that agrees across all of them.
   unparseable bodies, `-32602` for an unknown tool — never an HTML error page.
 - **Request bodies are capped** and validated before transport.
 
+## Privacy
+
+No accounts, no cookies, no ads. Usage is measured in aggregate with
+daily-rotating hashed identifiers and a 200-day retention; raw IPs are
+never stored. Full policy: [PRIVACY.md](./PRIVACY.md).
+
 ## Provenance and licence
 
 Knowledge content is **CC-BY-4.0**: use it, cite it. The source registry is
