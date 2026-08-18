@@ -1,0 +1,9 @@
+The knowledge content served by this MCP server, and the documentation in
+this repository, are licensed under CC BY 4.0 (see LICENSE).
+
+Attribution: cite the instance and link the canonical URL of the object you
+used. Every claim the server returns carries its own registered source, so
+the underlying evidence can and should be cited directly as well.
+
+The Citarium framework that compiles and serves this instance is a separate
+work under Apache-2.0: https://github.com/citarium/citarium
