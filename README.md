@@ -168,11 +168,15 @@ evidence is weaker, the object says so rather than rounding up.
 
 ## How it is built
 
-Compiled and served by [Citarium](https://github.com/citarium/citarium), an
-open-source framework for turning a knowledge graph into a website, an API,
-an MCP server and agent-readable files from a single source — under
-external evaluation, with the guardians and the falsification record in the
-open.
+Compiled and served by Citarium, a source-available framework for turning a
+knowledge graph into a website, an API, an MCP server and agent-readable
+files from a single source, under external evaluation.
+
+The framework's code is licensed under the Business Source License 1.1 and
+its repository is not public. What is public — and what actually matters for
+trusting an answer — is this server, the corpus it serves, and the registered
+source behind every claim: `get_sources` returns what any given claim rests
+on, so it can be checked rather than trusted.
 
 This repository is the server's public face: its manifest and its
 documentation. The corpus itself lives at [agentreliability.dev](https://agentreliability.dev).
