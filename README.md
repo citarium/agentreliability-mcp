@@ -2,6 +2,8 @@
 
 > Testing, benchmarking and auditing autonomous AI agents — methods, harnesses, evidence
 
+[![smithery badge](https://smithery.ai/badge/agentreliability/agentreliability)](https://smithery.ai/servers/agentreliability/agentreliability)
+
 A **remote MCP server** over a curated knowledge graph. Every claim it
 returns is bound to a registered source: the tools hand back claims *with*
 their citations and a confidence value, so an agent can show its work
